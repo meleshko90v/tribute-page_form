@@ -1,0 +1,93 @@
+body, html  {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-color:#EEEEEE;
+    font-family: helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    background: lightgrey;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+
+#title p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#title h1 {
+    font-size: 57px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 5px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+a {
+    color: #999999;
+}
+
+#img-div {
+    color: white;
+}
+
+#img-caption p {
+    margin: 5px;
+    text-align: center;
+    color: #999999;
+}
+
+.timeline {
+    background: white;
+    height: auto;
+}
+
+.timeline h2 {
+    padding: 25px 0 0 40px;
+}
+
+ul {
+    padding-bottom: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+#tribute-info {
+    background: lightgrey;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 120%;
+}
+
+.dp-f {
+    display: inline-flex;
+}
+
+footer p {
+    color: #999999;
+    padding: 10px;
+}
+
+.go-read a:hover {
+    background-color: #f1143d;
+}
