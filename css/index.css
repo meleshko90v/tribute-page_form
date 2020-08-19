@@ -7,9 +7,6 @@ body, html  {
     background-color:#EEEEEE;
     font-family: helvetica, sans-serif;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #title {
@@ -23,6 +20,7 @@ body, html  {
 #title p {
     font-size: 20px;
     letter-spacing: 2px;
+    margin: 5px;
 }
 
 #title h1 {
@@ -32,13 +30,15 @@ body, html  {
 
 h1 {
     font-size: 50px;
-    line-height: 5px;
+    margin: 0;
+    padding-top: 10px;
 }
 
 img {
     max-width: 100%;
     display: block;
     height: auto;
+    margin: auto;
 }
 
 a {
@@ -81,6 +81,10 @@ li {
 
 .dp-f {
     display: inline-flex;
+}
+
+footer {
+    text-align: center;
 }
 
 footer p {
